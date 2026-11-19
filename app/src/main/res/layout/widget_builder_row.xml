@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingVertical="3dp">
+
+    <TextView
+        android:id="@+id/row_account_badge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/badge_acc1"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:text="Akun 1"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/row_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="6dp"
+        android:layout_weight="1"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="Cannon (Lv.15)"
+        android:textColor="#F8FAFC"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/row_time_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2j 15m"
+        android:textColor="#E2E8F0"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
